@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
+<!-- ALINHAMENTO DE ELEMENTO - Aula resumo: "Avançando o HTML e CSS" -> "Masterizando alinhamento" (final)  -->
+<html lang="pt-br" ><!-- class="light" -->
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -17,10 +18,10 @@
   <body>
     <div id="container">
       <div id="profile">
-        <img src="./assets/avatar.png" alt="Foto de perfil do Brunno Cardoso" />
+        <img src="./assets/avatar.png" alt="Foto COM light" />
         <p>@brunnocardoso</p>
       </div>
-      <div id="switch">
+      <div id="switch" onclick="toggleMode()">
         <button></button>
         <span></span>
       </div>
@@ -64,5 +65,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
